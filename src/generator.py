@@ -90,7 +90,7 @@ class EmailGenerator(EnhancedHTTPClient):
         return self.emails
 
 
-if __name__ == "__main__":
+"""if __name__ == "__main__":
     emailGenerator = EmailGenerator()
     address, token = emailGenerator.generateEmail()
     print(token)
@@ -103,4 +103,4 @@ if __name__ == "__main__":
         for email in inbox:
             print(f"    - {email}")
     else:
-        print("[!] No new emails in inbox...")
+        print("[!] No new emails in inbox...")"""
