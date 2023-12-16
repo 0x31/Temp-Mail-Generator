@@ -65,7 +65,7 @@ class EmailGenerator(EnhancedHTTPClient):
         counter = 0
 
         while True:
-            if time.time() - initTime > 230:
+            if time.time() - initTime > 20:
                 print(f"[!] returnInbox() timed out...")
                 break 
 
